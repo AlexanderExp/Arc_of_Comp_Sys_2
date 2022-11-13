@@ -31,7 +31,7 @@
   	- mov	rax, QWORD PTR -56[rbp]	# tmp110, str
 	- mov	rdi, rax	#, tmp110
   
-  	+mov	rdi, QWORD PTR -56[rbp]
+  	+ mov	rdi, QWORD PTR -56[rbp]
   ---
   	- mov	rax, QWORD PTR -56[rbp]	# tmp110, str
 	- mov	rdi, rax	#, tmp110
