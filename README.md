@@ -25,7 +25,7 @@
 	- mov	rsi, rdx	#, tmp106
 	- mov	rdi, rax	#, tmp107
   
-  + mov	rsi, QWORD PTR -32[rbp]	#, tmp106
+  	+ mov	rsi, QWORD PTR -32[rbp]	#, tmp106
 	+ mov	rdi, QWORD PTR -40[rbp]	#, tmp107
   ---
   - mov	rax, QWORD PTR -56[rbp]	# tmp110, str
