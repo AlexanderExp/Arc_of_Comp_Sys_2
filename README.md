@@ -53,7 +53,7 @@
   
   	+ mov	rdi, QWORD PTR stdin[rip]
   ---
-  В main.s
+  	В main.s
   	- endbr64
   	- cdqe
   	- .size	randomMethod, .-randomMethod
@@ -75,7 +75,7 @@
   	- 3:
   	- .align 8
   ---
-  В task.s
+  	В task.s
   	- .size	main, .-main
   	- .ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
 	- .section	.note.GNU-stack,"",@progbits
